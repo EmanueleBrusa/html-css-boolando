@@ -69,17 +69,13 @@ header{
 footer{
     background-color: rgb(26, 26, 26);
     padding: 30px 0px;
-}
-.footer-left, .footer-right{
-    height: 200px;
-    width: 100%;
-    background-color: red;
+    font-size: 15px;
 }
 .footer-left ul li a, .footer-right ul li a{
     text-decoration: none;
     color: white;
 }
-.footer-left strong{
+.footer-left strong, .footer-right strong{
     color: white;
 }
 .footer-right{
