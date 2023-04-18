@@ -19,16 +19,30 @@ body{
     width: calc(100% / 3 - 20px);
     margin: 0 10px;
 }
-/*fine layout*/
-/*inizio header*/
-header{
-    background-color: orangered;
-}
 .menu-header, .logo-header, .icons-header{
     height: 100px;
     width: 300px;
     background-color: blue;
 }
+.menu-header ul, .icons-header ul{
+    list-style-type: none;
+}
+.menu-header ul li, .icons-header ul li{
+    display: inline-block;
+}
+.menu-header ul li a, .icons-header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-header ul li a:hover, .icons-header ul li a:hover{
+    text-decoration: underline;
+}
+/*fine layout*/
+/*inizio header*/
+header{
+    background-color: orangered;
+}
+
 /*fine header*/
 /*inizio main*/
 
