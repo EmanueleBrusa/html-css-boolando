@@ -30,10 +30,10 @@ header{
     padding: 15px 0px;
     box-shadow: 0px 0px 3px 1px black;
 }
-.menu-header ul, .icons-header ul{
+.menu-header ul, .icons-header ul, .footer-left ul, .footer-right ul{
     list-style-type: none;
 }
-.menu-header ul li, .icons-header ul li{
+.menu-header ul li, .icons-header ul li, .footer-left ul li, .footer-right ul li{
     display: inline-block;
 }
 .menu-header ul li a, .icons-header ul li a{
@@ -68,10 +68,21 @@ header{
 /*inizio footer*/
 footer{
     background-color: rgb(26, 26, 26);
+    padding: 30px 0px;
 }
 .footer-left, .footer-right{
     height: 200px;
     width: 100%;
     background-color: red;
+}
+.footer-left ul li a, .footer-right ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-left strong{
+    color: white;
+}
+.footer-right{
+    text-align: right;
 }
 /*fine footer*/
