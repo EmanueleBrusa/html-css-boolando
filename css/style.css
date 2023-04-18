@@ -63,7 +63,9 @@ header{
 }
 /*fine header*/
 /*inizio main*/
-
+main{
+    margin: 30px 0px;
+}
 /*fine main*/
 /*inizio footer*/
 footer{
