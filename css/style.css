@@ -21,7 +21,14 @@ body{
 }
 /*fine layout*/
 /*inizio header*/
-
+header{
+    background-color: orangered;
+}
+.menu-header, .logo-header, .icons-header{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
 /*fine header*/
 /*inizio main*/
 
