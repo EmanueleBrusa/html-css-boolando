@@ -129,6 +129,9 @@ main{
 .image-content:hover .second-image{
     display: block;
 }
+.heart-icon:hover{
+    color: red;
+}
 /*fine main*/
 /*inizio footer*/
 footer{
